@@ -752,7 +752,7 @@ p {
 }
 .privacy-checkbox {
 }
-.privacy-checkbox:checked + span {
+.privacy-checkbox:checked + .privacy-label > .checkbox-box-svg {
 	background-color: #404bbf;
 	border: none;
 	fill: #ffffff;
@@ -760,6 +760,8 @@ p {
 .privacy-link {
 	color: #4d5ae5;
 	text-decoration: underline;
+	display: inline-block;
+	margin-left: 3px;
 }
 .checkbox-box-svg {
 	margin-right: 8px;
